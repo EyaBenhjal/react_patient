@@ -10,10 +10,10 @@ const AreaChart = ({ series, color }) => {
   const { theme: mode } = useTheme();
   const theme = themes.find((theme) => theme.name === config);
   const themeColors = {
-    primary: "#3B82F6",
-    success: "#22C55E",
-    warning: "#F97316",
-    destructive: "#EF4444"
+    primary: "#7AA95C",
+    success: "#7AA95C",
+    warning: "#7AA95C",
+    destructive: "#7AA95C"
   };
 
   let themeColor = themeColors[color] || primaryColor;

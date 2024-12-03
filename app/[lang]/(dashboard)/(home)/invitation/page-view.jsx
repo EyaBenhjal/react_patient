@@ -12,7 +12,7 @@ const ProjectPageView = () => {
       date: "2024-08-05",
       time: "14:00",
       duration: "30 minutes",
-      email: "ghanemtoumi@gmail.com",
+      email: "farahr2001@gmail.com",
       title: "Invitation from Timec"
     }
   ]);

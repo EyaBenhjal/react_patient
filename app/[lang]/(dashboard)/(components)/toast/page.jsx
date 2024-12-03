@@ -78,16 +78,17 @@ const customJsx = () => {
 const themToast = () => {
   reToast.success("Look at my styles.", {
     style: {
-      border: "1px solid #713200",
+      border: "1px solid #7AA95C",
       padding: "16px",
-      color: "#713200",
+      color: "#7AA95C",
     },
     iconTheme: {
-      primary: "#713200",
-      secondary: "#FFFAEE",
+      primary: "#7AA95C",
+      secondary: "#7AA95C",
     },
   });
-};
+}
+
 const tailwindClass = () => {
   reToast.custom((t) => (
     <div

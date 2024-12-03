@@ -55,14 +55,16 @@ const ProfileInfo = () => {
             <Link
               href="/dashboard"
               className="text-xs text-default-600 hover:text-primary"
-            >
+            >Farah Rihan
               
             </Link>
           </div>
         </DropdownMenuLabel>
         <DropdownMenuGroup>
           {[
+            
             {
+
               name: "profile",
               icon: "heroicons:user",
               href:"/user-profile"

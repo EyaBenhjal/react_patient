@@ -20,7 +20,7 @@ const Contact = () => {
               Obtenez des conseils 
               {" "}
                 <span className="position-relative">
-                d'experts               
+                d'Psychologues               
                  </span>{" "}
                 instantanément
                               </h3>
@@ -241,7 +241,7 @@ Trouver un expert
               className="img-uniform max-w-[300px] w-full h-auto object-cover mx-auto"
             />
             <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
-              <p className="text-white">Posez vos questions et obtenez des réponses personnalisées en réservant un appel vidéo avec l'un de nos experts. Rien de tel qu'une bonne discussion !</p>
+              <p className="text-white">Posez vos questions et obtenez des réponses personnalisées en réservant un appel vidéo avec l'un de nos Psychologues. Rien de tel qu'une bonne discussion !</p>
             </div>
           </div>
         </div>

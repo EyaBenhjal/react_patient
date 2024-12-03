@@ -349,7 +349,7 @@ const ProjectsSheet = ({ open, project, onClose, selectedId }) => {
                           {endDate ? (
                             formatDate(endDate, "PPP")
                           ) : (
-                            <span>Browse Featured Expertsa date</span>
+                            <span>Browse Featured Psychologuesa date</span>
                           )}
                           <CalendarIcon className=" h-4 w-4" />
                         </Button>

@@ -20,7 +20,7 @@ export default function DatePickerWithRange({ className }) {
   return (
           
            
-              <h1>Browse Featured Experts
+              <h1>Browse Featured Psychologues
 
               </h1>
             

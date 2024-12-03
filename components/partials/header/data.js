@@ -14,8 +14,8 @@ import avatar8 from "@/public/images/avatar/avatar-8.jpg";
 export const profileUser = {
   id: 11,
   avatar: "/images/avatar/WhatsApp Image 2024-03-22 at 16.06.08.jpeg",
-  fullName: "Eya benhjall",
-  bio: "UX/UI Designer",
+  fullName: "Farah Rayhan",
+  bio: "",
   role: "admin",
   about:
     "Dessert chocolate cake lemon drops jujubes. Biscuit cupcake ice cream bear claw brownie brownie marshmallow.",

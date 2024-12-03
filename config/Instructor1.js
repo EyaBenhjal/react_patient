@@ -9,9 +9,9 @@ export default function Instructor1() {
                         <div className="row align-items-center gap-4 gap-md-0">
                              <div className="col-md-8">
                                 <div className="section__title text-center text-md-start">
-                                    <span className="sub-title">Our experts</span>
+                                    <span className="sub-title">Our Psychologues</span>
                                     <h2 className="title tg-svg">Browse  <span className="position-relative"><span className="svg-icon" id="svg-8" data-svg-icon="assets/img/icons/title_shape.svg" />Featured </span>
-                                    Experts</h2>
+                                    Psychologues</h2>
                                 </div>
                             </div>
                            

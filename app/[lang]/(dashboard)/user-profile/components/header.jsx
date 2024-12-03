@@ -42,8 +42,7 @@ const Header = () => {
                   alt="user"
                   className="h-20 w-20 lg:w-32 lg:h-32 rounded-full"
                 />
-              </div>
-              <div>                <div className="text-xl lg:text-2xl font-semibold text-primary-foreground mb-1">EYA benhjal</div>
+              </div>              <div>                <div className="text-xl lg:text-2xl font-semibold text-primary-foreground mb-1">Farah Rayhan</div>
                 <div className="text-xs lg:text-sm font-medium text-default-100 dark:text-default-900 pb-1.5">
                 </div>
               </div>
@@ -62,16 +61,24 @@ const Header = () => {
                   title: "Payment",
                   link: "/user-profile/activitycopy"
                 },
-                
+                {
+                  title: "Pricing",
+                  link: "/user-profile/activity"
+                },
                 {
                   title: "Overview",
                   link: "/user-profile"
                 },
-               
+                {
+                  title: "Documents",
+                  link: "/user-profile/documents"
+                },
+                
                 {
                   title: "Settings",
                   link: "/user-profile/settings"
                 },
+
               ].map((item, index) => (
                 <Link
                   key={`user-profile-link-${index}`}

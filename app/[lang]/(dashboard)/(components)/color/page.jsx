@@ -1,50 +1,20 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
+
 const primaryColors = [
-  // {
-  //   name: "primary-950",
-  //   color: "#3B1B97"
-  // },
-  // {
-  //   name: "primary-900",
-  //   color: "#3B1B97"
-  // },
-  // {
-  //   name: "primary-800",
-  //   color: "#451FB8"
-  // },
-  // {
-  //   name: "primary-700",
-  //   color: "#5325DC"
-  // },
-  // {
-  //   name: "primary-600",
-  //   color: "#6237F0"
-  // },
   {
     name: "primary",
-    color: "#826AF9",
+    color: "#28A745", // Vert principal
   },
-  // {
-  //   name: "primary-400",
-  //   color: "#9689FC"
-  // },
-  // {
-  //   name: "primary-300",
-  //   color: "#B9B4FE"
-  // },
-  // {
-  //   name: "primary-200",
-  //   color: "#D7D5FF"
-  // },
   {
     name: "primary-100",
-    color: "#EAE9FE",
+    color: "#DFF5E1", // Vert clair
   },
   {
     name: "primary-50",
-    color: "#F3F3FF",
+    color: "#F2FCF5", // Vert très clair
   },
 ];
+
 const defaultColors = [
   {
     name: "default-950",
@@ -58,10 +28,6 @@ const defaultColors = [
     name: "default-800",
     color: "#1E293B",
   },
-  // {
-  //   name: "default-700",
-  //   color: "#334155"
-  // },
   {
     name: "default-600",
     color: "#475569",
@@ -91,63 +57,17 @@ const defaultColors = [
     color: "#F9FAFB",
   },
 ];
-const destructiveColors = [
-  // {
-  //   name: "destructive-950",
-  //   color: "#020617"
-  // },
-  // {
-  //   name: "destructive-900",
-  //   color: "#0F1624"
-  // },
-  // {
-  //   name: "destructive-800",
-  //   color: "#1E293B"
-  // },
-  // {
-  //   name: "destructive-700",
-  //   color: "#334155"
-  // },
-  // {
-  //   name: "destructive-600",
-  //   color: "#475569"
-  // },
-  {
-    name: "destructive",
-    color: "#64748B",
-  },
-  // {
-  //   name: "destructive-400",
-  //   color: "#94A3B8"
-  // },
-  // {
-  //   name: "destructive-300",
-  //   color: "#CBD5E1"
-  // },
-  // {
-  //   name: "destructive-200",
-  //   color: "#E2E8F0"
-  // },
-  // {
-  //   name: "destructive-100",
-  //   color: "#F1F5F9"
-  // },
-  // {
-  //   name: "destructive-50",
-  //   color: "#F9FAFB"
-  // }
-];
 
 const ColorPage = () => {
   return (
     <Card>
       <CardHeader>All Colors</CardHeader>
       <CardContent>
-        {/* base color */}
+        {/* Base Color */}
         <div className="text-lg font-medium text-default-900">Base</div>
         <div className="mt-5 flex flex-wrap gap-2">
           <div className="border border-default-200 rounded w-24">
-            <div className="h-12 w-full bg-background  border-b border-default-200 rounded-t"></div>
+            <div className="h-12 w-full bg-background border-b border-default-200 rounded-t"></div>
             <div className="p-2">
               <div className="text-sm font-medium text-default-800 mb-[2px]">
                 White
@@ -167,7 +87,6 @@ const ColorPage = () => {
         </div>
 
         {/* Primary Color */}
-
         <div className="text-lg font-medium text-default-900 mt-9 mb-6">
           Primary
         </div>
@@ -179,6 +98,7 @@ const ColorPage = () => {
             >
               <div
                 className={`h-14 w-full bg-${item.name} border-b border-default-200 min-w-[100px] rounded-t`}
+                style={{ backgroundColor: item.color }}
               ></div>
               <div className="p-2">
                 <div className="text-sm font-medium text-default-800 mb-[2px]">
@@ -202,29 +122,7 @@ const ColorPage = () => {
             >
               <div
                 className={`h-14 w-full bg-${item.name} border-b border-default-200 rounded-t`}
-              ></div>
-              <div className="p-2">
-                <div className="text-sm font-medium text-default-800 mb-[2px]">
-                  {item.name}
-                </div>
-                <div className="text-xs text-default-500">{item.color}</div>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        {/* Destructive Color */}
-        <div className="text-lg font-medium text-default-900 mt-9 mb-6">
-          Destructive
-        </div>
-        <div className="flex flex-wrap gap-2">
-          {destructiveColors.map((item, index) => (
-            <div
-              className="border border-default-200 rounded "
-              key={`default-color-${index}`}
-            >
-              <div
-                className={`h-14 w-full bg-${item.name} border-b border-default-200 min-w-[100px] rounded-t`}
+                style={{ backgroundColor: item.color }}
               ></div>
               <div className="p-2">
                 <div className="text-sm font-medium text-default-800 mb-[2px]">

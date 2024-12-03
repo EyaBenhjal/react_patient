@@ -24,7 +24,7 @@ const UserMeta = () => {
           </Button>
           <Input type="file" className="hidden" id="avatar" />
         </div>
-        <div className="mt-4 text-xl font-semibold text-default-900">EYA benhjal</div>
+        <div className="mt-4 text-xl font-semibold text-default-900">Farah Rayhan</div>
       </CardContent>
     </Card>
   );

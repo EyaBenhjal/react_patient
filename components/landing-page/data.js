@@ -94,7 +94,7 @@ export const demoMenus = [
     child: [
       [
         {
-          title: "Experts",
+          title: "Psychologues",
           href: "/ecommerce",
           icon: Cart,
           image: ecommercePage,

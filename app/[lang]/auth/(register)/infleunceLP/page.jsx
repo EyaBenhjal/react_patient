@@ -15,15 +15,15 @@ const infleunce = () => {
 
   return (
     <>
-      {/* Container for the login form and experts list */}
+      {/* Container for the login form and Psychologues list */}
       <div className="flex flex-col xl:flex-row w-full">
         {/* Login Form Section */}
         <div className="flex-1 bg-black p-6 flex justify-center items-center">
         <Headerexpert/>
 
-        {/* List of Experts Section */}
+        {/* List of Psychologues Section */}
         <div className="flex-8 p-11 bg-black">
-          <h1 className="text-xl font-bold mb-4">Browse Featured Experts</h1>
+          <h1 className="text-xl font-bold mb-4">Browse Featured Psychologues</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
             <Listinfleunce />
           </div>

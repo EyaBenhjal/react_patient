@@ -7,92 +7,9 @@ import Link from "next/link";
 
 const EcommerceStats = () => {
   const data = [
-    {
-      imgSrc: "/images/instructor/instructor01.png", // Corrected path
-      name: "Psychologue clinicien",
-      designation: "Sophie",
-      shapeColor: "#E2FAFF",
-      borderRadius: "135px 0 0 0",
-    },
-    {
-      imgSrc: "/images/instructor/instructor02.png",
-      name: "Psychologue clinicien",
-      designation: "Elisabeth ",
-      shapeColor: "#E4FFE2",
-      borderRadius: "135px 115px 115px 0"
-  },
-  {
-    imgSrc: "/images/instructor/instructor03.png",
-    name: "Psychologue clinicien",
-    designation: "Olivin",
-    shapeColor: "#E4FFE2",
-    borderRadius: "135px 115px 115px 0"
-},
-{
-  imgSrc: "/images/instructor/instructor04.png",
-  name: "Psychologue clinicien",
-  designation: "Olivia Mia",
-  shapeColor: "#E4FFE2",
-  borderRadius: "135px 115px 115px 0"
-},
-
-
-{
-imgSrc: "/images/instructor/instructor03.png",
-name: "Olivia Mia",
-designation: "Psychologue clinicien",
-shapeColor: "#E4FFE2",
-borderRadius: "135px 115px 115px 0"
-},
-{
-imgSrc: "/images/instructor/instructor04.png",
-name: "Georges",
-designation: "Psychologue clinicien, thérapeute familial",
-shapeColor: "#E4FFE2",
-borderRadius: "135px 115px 115px 0"
-},
-{
-imgSrc: "/images/instructor/instructor05.png", // Corrected path
-name: "Valérie Rouzeau",
-designation: "psychologue clinicien",
-shapeColor: "#E2FAFF",
-borderRadius: "135px 0 0 0",
-},
-{
-imgSrc: "/images/instructor/instructor06.png",
-name: "Olivia Mia",
-designation: "psychologue clinicien",
-shapeColor: "#E4FFE2",
-borderRadius: "135px 115px 115px 0"
-},
-{
-imgSrc: "/images/instructor/instructor07.png",
-name: "Olivia Mia",
-designation: "Psychologue clinicien",
-shapeColor: "#E4FFE2",
-borderRadius: "135px 115px 115px 0"
-},
-{
-imgSrc: "/images/instructor/instructor08.png",
-name: "Marie FRACKOWIAK",
-designation: "Psychologue, psychothérapeute, Thérapie brèveg",
-shapeColor: "#E4FFE2",
-borderRadius: "135px 115px 115px 0"
-},
-{
-imgSrc: "/images/instructor/instructor02.png",
-name: "Hélène",
-designation: "Psychologue clinicien",
-shapeColor: "#E4FFE2",
-borderRadius: "135px 115px 115px 0"
-},
-{
-imgSrc: "/images/instructor/instructor01.png",
-name: "Olivia Mia",
-designation: "Psychologue clinicien",
-shapeColor: "#E4FFE2",
-borderRadius: "135px 115px 115px 0"
-},   
+    
+    
+   
   ];
   
   function InstructorCard({ imgSrc, name, designation, shapeColor, borderRadius }) {

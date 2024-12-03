@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import { Icon } from "@iconify/react";
 import Link from "next/link";
 
-const ExpertStats = () => {
+const Psychologuestats = () => {
   const data = [
     {
       imgSrc: "/images/instructor/instructor01.png", // Corrected path
@@ -80,7 +80,7 @@ borderRadius: "135px 115px 115px 0"
     
   ];
   
-<h1>Parcourir les experts en vedette</h1>
+<h1>Parcourir les Psychologues en vedette</h1>
   function InstructorCard({ imgSrc, name, designation, shapeColor, borderRadius }) {
     return (
 
@@ -141,4 +141,4 @@ borderRadius: "135px 115px 115px 0"
   );
 };
 
-export default ExpertStats;
+export default Psychologuestats;

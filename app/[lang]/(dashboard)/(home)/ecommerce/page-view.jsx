@@ -1,4 +1,5 @@
 "use client";
+import Psychologuestats from './components/ecommerce-stats';
 
 import RevinueChart from "./components/revinue-chart";
 import TopBrowserChart from "./components/top-browser-chart";
@@ -26,7 +27,7 @@ const EcommercePageView = ({ trans }) => {
       <Card>
         <CardContent className="p-4">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
-            <ExpertStats />
+            <Psychologuestats />
           </div>
         </CardContent>
       </Card>

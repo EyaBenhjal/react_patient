@@ -17,7 +17,7 @@ import aveya1 from "@/public/images/avatar/avatar-11.jpg";
 export const profileUser = {
   id: 11,
   avatar: aveya,
-  fullName: "EYA benhjal",
+  fullName: "Farah Rayhan",
   bio: "",
   role: "admin",
   about:

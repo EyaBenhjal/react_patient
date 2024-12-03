@@ -61,7 +61,7 @@ const Footer = () => {
             </span>
           </Link>
           <p className="text-base leading-7 text-default-200 dark:text-default-600 text-center mt-3">
-          Rejoignez notre réseau d'experts et d'influences pour obtenir des conseils personnalisés et des insights exclusifs. Que vous soyez à la recherche de développement professionnel, de stratégies de marque ou d'inspiration créative, nos experts sont là pour vous guider. Connectez-vous avec les personnes qui 
+          Rejoignez notre réseau d'Psychologues et d'influences pour obtenir des conseils personnalisés et des insights exclusifs. Que vous soyez à la recherche de développement professionnel, de stratégies de marque ou d'inspiration créative, nos Psychologues sont là pour vous guider. Connectez-vous avec les personnes qui 
           façonnent votre secteur et faites progresser votre carrière dès aujourd'hui</p>
           <div className="mt-9 flex justify-center flex-wrap gap-4">
            

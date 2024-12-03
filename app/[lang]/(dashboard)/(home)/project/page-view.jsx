@@ -231,7 +231,7 @@ const ProjectPageView = ({ trans }) => {
           color: #4a5568;
           margin-bottom: 1rem;
         }
-        .featured-experts {
+        .featured-Psychologues {
           margin: 1rem 0;
         }
         .instructor-info {

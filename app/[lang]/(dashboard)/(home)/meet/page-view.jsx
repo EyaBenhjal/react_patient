@@ -21,7 +21,7 @@ const ProjectPageView = ({ trans }) => {
 
   // Tableau des URLs d'images
   const images = [
-    "/images/instructor/instructor01.png",
+    "/images/instructor/avatar-7.jpg",
   
   ];
 
@@ -36,7 +36,7 @@ const ProjectPageView = ({ trans }) => {
         {/* Première Carte */}
         <Card className="mb-6">
           <CardHeader className="border-none mb-0 p-6">
-            <CardTitle>Meeting with psychologue </CardTitle>
+            <CardTitle>Meeting with patient </CardTitle>
           </CardHeader>
           <CardContent>
             <p className="text-sm text-default-600">15 mars 2024 - 10:00</p>
@@ -75,7 +75,6 @@ const ProjectPageView = ({ trans }) => {
             <p className="text-sm text-default-600">20 mars 2024 - 14:00</p>
             <div className="flex gap-4 mt-4">
               <Button>Rejoindre</Button>
-              <Button variant="outline">Copier l'Invitation</Button>
             </div>
           
             <div className="flex items-center mt-4">

@@ -80,7 +80,7 @@ borderRadius: "135px 115px 115px 0"
     
   ];
   
-<h1>Browse Featured Experts</h1>
+<h1>Browse Featured Psychologues</h1>
   
   function InstructorCard({ imgSrc, name, designation, shapeColor, borderRadius }) {
     return (

@@ -888,19 +888,7 @@ export const menusConfig = {
   ],
   sidebarNav: {
     modern: [
-      {
-        title: "Tableau de bord",
-        icon: DashBoard,
-        child: [
-         
-          {
-            title: "Psychologue ",
-            href: "/dashboard",
-            icon: ClipBoard,
-          },
-          
-        ],
-      },
+      
       
 
       {
@@ -976,20 +964,33 @@ export const menusConfig = {
 
 
         
-        {
-          title: "Invitation Pending",
-          icon: MenuBar,
-          child: [
-           
-            {
-              title: "My Requests",
-              icon: ClipBoard,
-              href: "/request",
-            },
-            
-          ],
-        },
+      {
+        title: "Working Hours",
+        icon: Application,
       
+            href: "/analytics",
+          },
+
+          {
+            title: "Pending Invitation",
+            icon: MenuBar,
+      
+              
+                href: "/invitation",
+              
+              
+              
+              },
+              {
+                title: "Service",
+                icon:Components,
+          
+                  
+                    href: "/courses",
+                  
+                  
+                  
+                  },
       
             
         
